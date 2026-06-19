@@ -14,7 +14,7 @@ test("Creates a data account for my program accont", async () => {
     const svm = new LiteSVM();
 
     const contractPubkey = PublicKey.unique();
-    svm.addProgramFromFile(contractPubkey, "./double3.so");
+    svm.addProgramFromFile(contractPubkey, "./double.so");
 
     const payer = Keypair.generate();
 
