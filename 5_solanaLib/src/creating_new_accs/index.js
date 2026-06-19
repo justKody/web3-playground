@@ -18,6 +18,6 @@ async function crateAccount() {
     );
     await sendAndConfirmTransaction(connection, fundTx, [payer, newAccount]);
     console.log("Funded account:", newAccount.publicKey.toBase58());
-  }
-  
-  crateAccount()
+}
+
+crateAccount();

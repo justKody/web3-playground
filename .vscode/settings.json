@@ -1,0 +1,23 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "10_rust/rust_0_ownership/Cargo.toml",
+        "10_rust/rust_1_variables-and-conidtional-loops/Cargo.toml",
+        "10_rust/rust_2_ownership/Cargo.toml",
+        "10_rust/rust_3_borrowing-references/Cargo.toml",
+        "10_rust/rust_4_structs/Cargo.toml",
+        "10_rust/rust_5_enums/Cargo.toml",
+        "10_rust/rust_6_errorHandling/Cargo.toml",
+        "10_rust/rust_7_generic/Cargo.toml",
+        "10_rust/rust_8_traits/Cargo.toml",
+        "10_rust/rust_9_macros/Cargo.toml",
+        "10_rust/rust_10_serde/Cargo.toml",
+        "10_rust/rust_11_borche/Cargo.toml",
+        "10_rust/rust_12_iterators/Cargo.toml",
+        "10_rust/rust_13_lifetimes/Cargo.toml",
+        "11_solana_program/contract/Cargo.toml"
+    ],
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true
+    }
+}
