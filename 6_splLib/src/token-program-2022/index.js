@@ -54,8 +54,8 @@ async function createMintForToken2022(payer, mintAuthority, name, symbol, uri) {
             lamports,
             programId: TOKEN_2022_PROGRAM_ID,
         }),
-        createInitializeMetadataPointerInstruction(mint, authority, mint, TOKEN_2022_PROGRAM_ID),
         createInitializeMintInstruction(mint, DECIMALS, authority, null, TOKEN_2022_PROGRAM_ID),
+        createInitializeMetadataPointerInstruction(mint, authority, mint, TOKEN_2022_PROGRAM_ID),
         createInitializeInstruction({
             programId: TOKEN_2022_PROGRAM_ID,
             metadata: mint,
